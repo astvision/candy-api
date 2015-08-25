@@ -1,0 +1,15 @@
+*.pyc
+.DS_Store
+
+# eclipse, pydev
+/.project
+/.pydevproject
+/.settings/
+/.externalToolBuilders/
+/static/assets/*
+
+# intellij pycharm
+.idea/
+
+# Editorconfig
+.editorconfig
