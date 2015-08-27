@@ -17,7 +17,7 @@ def api_request(action, xml, request_id=None):
     result = None
 
     try:
-        xml = u'<?xml version="1.0" encoding="UTF-8"?>%s' % (xml)
+        xml = u'<?xml version="1.0" encoding="UTF-8"?>%s' % xml
         logging.info('[candy sdk] request xml: %s' % xml)
 
         con = httplib.HTTPSConnection(c.CANDY_API_HOST, c.CANDY_API_PORT, key_file=c.CANDY_API_KEYFILE, cert_file=c.CANDY_API_CERTFILE)
